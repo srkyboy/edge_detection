@@ -1,3 +1,7 @@
+# About
+
+# Used libs
+
 # Build
 gcc main.c image.c -lm -o main
 
