@@ -1,4 +1,5 @@
 # About
+Load image, convert to grayscale and save.
 
 # Used libs
 https://github.com/nothings/stb/blob/master/LICENSE
