@@ -1,7 +1,7 @@
 # About
 
 # Used libs
-
+https://github.com/nothings/stb/blob/master/LICENSE
 # Build
 gcc main.c image.c -lm -o main
 
