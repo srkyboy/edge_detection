@@ -12,9 +12,9 @@ int main() {
 
     image_load(&image, image_path);
     image_to_grayscale(&image, &gray_image, gray_image_path_to_save);
-    // stbi_image_free(image);
+
     free(image.data);
-    // free(gray_image.data);
+    free(gray_image.data);
 
     return 0;
 }
