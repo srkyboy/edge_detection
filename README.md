@@ -13,5 +13,8 @@ gcc main.c image.c -lm -o main
 gdb ./main
 gcc main.c image.c -g -lm -o main 
 
+# Build with bazel
+bazel build //src/main:main
+
 # Run memory check
 valgrind --leak-check=full ./main

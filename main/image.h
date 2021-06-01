@@ -4,7 +4,8 @@
 #include <stdint.h>
 #include <stddef.h> 
 #include <math.h>
-#include "utils.h"
+
+#include "lib/utils.h"
 
 typedef struct {
     int width;
