@@ -7,7 +7,7 @@ https://github.com/nothings/stb/blob/master/LICENSE
 gcc main.c image.c -lm -o main
 
 # Run
-./main
+./main images/image.png images/
 
 # Build for debug mode
 gdb ./main
