@@ -6,7 +6,6 @@
 #include <math.h>
 
 #include "lib/utils.h"
-
 typedef struct {
     int width;
     int height;

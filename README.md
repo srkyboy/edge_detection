@@ -1,20 +1,27 @@
-# About
-Load image, convert to grayscale and save.
+# Edge Detection
+## About
+<p>Load image, convert to grayscale and save.</p>
 
-# Used libs
+## Used libs
+STB
 https://github.com/nothings/stb/blob/master/LICENSE
-# Build with gcc
-gcc main.c image.c -lm -o main
 
-# Build for debug mode with gcc
-gdb ./main
-gcc main.c image.c -g -lm -o main 
+## Build
+### Build with gcc
+```gcc main.c image.c -lm -o main```
 
-# Build with bazel
-bazel build //src/main:main
+### Build for debug mode with gcc
+```gcc main.c image.c -g -lm -o main```<br/>
+```gdb ./main```
 
-# Run
-./main images/image.png images/
+### Build with bazel
+```bazel build //main:main```
 
-# Run memory check
-valgrind --leak-check=full ./main
+### Clean
+
+
+## Run
+```./main images/image.png images/```
+
+## Run memory check
+```valgrind --leak-check=full ./main```
